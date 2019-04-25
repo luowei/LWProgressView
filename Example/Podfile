@@ -5,9 +5,8 @@ platform :ios, '8.0'
 target 'libProgressView_Example' do
   pod 'libProgressView', :path => '../'
 
-  target 'libProgressView_Tests' do
-    inherit! :search_paths
+  # target 'libProgressView_Tests' do
+  #   inherit! :search_paths
+  # end
 
-    
-  end
 end

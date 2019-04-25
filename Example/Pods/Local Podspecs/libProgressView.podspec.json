@@ -18,13 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "libProgressView/Classes/**/*",
-  "dependencies": {
-    "CircleProgressBar": [
-
-    ],
-    "Masonry": [
-
-    ]
-  }
+  "source_files": "libProgressView/Classes/**/*"
 }

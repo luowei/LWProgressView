@@ -1,26 +1,15 @@
 PODS:
-  - CircleProgressBar (0.32)
-  - libProgressView (1.0):
-    - CircleProgressBar
-    - Masonry
-  - Masonry (1.1.0)
+  - libProgressView (1.0)
 
 DEPENDENCIES:
   - libProgressView (from `../`)
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - CircleProgressBar
-    - Masonry
 
 EXTERNAL SOURCES:
   libProgressView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CircleProgressBar: 3920079be5224b62b3d9ed6eeb23ac01c835b681
-  libProgressView: b7cbbe19a4426aa2e32ae702cef7bd3de8552607
-  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  libProgressView: 6bd7b37189f352bde96d1938338e1640933bf36e
 
 PODFILE CHECKSUM: dfc949303432d2ce0398960c679c9bdf8c7aafb9
 

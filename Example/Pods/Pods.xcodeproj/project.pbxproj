@@ -7,68 +7,200 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06602CAC75B283B09CAF48A150C17F5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		22B61C92D3E53B07275EDB6FCBAEA0C7 /* LWMaskProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = D14B937043BE135D67AAE3738083D3A7 /* LWMaskProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		31761654FD191426DAA6A44876A3BD79 /* libProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E02ED566BADE150CD383B2201503002 /* libProgressView-dummy.m */; };
-		A0DCA13340D103932507B460D8195553 /* LWMaskProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 033E7B9D55E06CE15D609EC1FFD75837 /* LWMaskProgressView.m */; };
-		A870EAAB87DD97AAABC207BF0511241B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		C1CC923DE3F45CAE947B7A344F22EE61 /* Pods-libProgressView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB9058D56778AFF38638890D35C0FB6 /* Pods-libProgressView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFA5A9403F716AE6EB08BBF8B27A49E8 /* Pods-libProgressView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6371B0FB82CFC50BF2218BC8192ADAC9 /* Pods-libProgressView_Example-dummy.m */; };
-		E625FA935C0A690EDDB92E6E0FAF13D2 /* libProgressView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20ED8A73F0E493D2DEA4950E6F140B4A /* libProgressView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		024DF4C56BED49C0679C6EC2647A99F0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D2D36D71C092BD2B279E9CCF31334BC /* QuartzCore.framework */; };
+		06EC8A4BB761644A8CC03CA1C7113A08 /* Pods-libProgressView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB9058D56778AFF38638890D35C0FB6 /* Pods-libProgressView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09734D94FDAF2A758A16E627046EBDA8 /* CircleProgressBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 17D4D6CAB726831C34CF045242D312A7 /* CircleProgressBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CAC931CFB43E4FF791A0EC568BC4880 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = CE79869517771D25FAE6F8E6993DCC50 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		193532DC582E6326486803870B051D6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A103DAB716348461B23535D27C99DAB5 /* Foundation.framework */; };
+		1DC2C256D2691988B7AA8D188DAB1823 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF672448452B5FE4915ABA41418C9513 /* Masonry.framework */; };
+		1E2D35C0B7902B8D0468303D2082EE8D /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B87FD370335755E81E459662C5474D8 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2118F4762E53379A7B3CC50A1933F92F /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE91EF40B6B9401101F519654A7D3D6 /* MASLayoutConstraint.m */; };
+		2F9FED72159A09690D7F5D3A02D755E3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C887AAE3AE9A513850C01E20468E9DD7 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		341DE7301012D03EB0F7CDC14015E7A6 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = DA38E358BE3EEB2EF5E02F60EA11A3CC /* MASViewAttribute.m */; };
+		382A6422A56522EFD02BBAE10AEE0256 /* LWMaskProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 033E7B9D55E06CE15D609EC1FFD75837 /* LWMaskProgressView.m */; };
+		3865D88C8A3E1F78624A6FDD9E8CEFCD /* libProgressView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20ED8A73F0E493D2DEA4950E6F140B4A /* libProgressView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EF3113F05F4E0A27FD9A05EE23DEEC0 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = BEE124B5C9DBF446451A243D77168D04 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40951E0AF2910A8DB1894F92C4BBC19C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A103DAB716348461B23535D27C99DAB5 /* Foundation.framework */; };
+		41EC1EAEF1BF11CE2F50E590F56B76B9 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 00F1D985E527D95B9660BA9022530A8C /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5427030B10C1259D2011D64AADD8C530 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 447F6C11829B2A80C17C733744C2F436 /* MASCompositeConstraint.m */; };
+		573211B183B85909EDC59980D89C0A7A /* libProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E02ED566BADE150CD383B2201503002 /* libProgressView-dummy.m */; };
+		58FD19EA7A2BC61363AD6D984C93E966 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = DA33E47E1074B7428FA8EE08BCD20B59 /* MASConstraintMaker.m */; };
+		5B28B74849CAF875482A77BBB2AABACA /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 89672CEEFEEFFBC85DBA8BD20EF0C771 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60E3E23EEE726F20E01C4392A01270E3 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0119243C7695ED702FAD7A835B838C14 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67EE427AC990AE198BFBB36C0927E9B9 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DF8601FB7D251848ECDDD76988D653 /* MASViewConstraint.m */; };
+		70A62E3C8D98B78056D05DD515C5730E /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C446AD89364B7C42D6DBDE20C063C0A8 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73D9370125EDF3EC61801AD72CFBA784 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E31EC8C467FECF9217BC1966888A2F28 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78BFE9F3DC5EF7F7E075116D37E11688 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = C13FFD81E860696402B6D2AD38109600 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85CF27AB2D06A6F9213FBDC1105F503D /* CircleProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA8DC3D9AF64E5A19D09112F4BC7CA8 /* CircleProgressBar.m */; };
+		8EF11621B60A25D921838698B07EE6B4 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EFA0558D108EDA68EAA2B5808F1C9F /* View+MASAdditions.m */; };
+		9436BAC75FC4C858F7F04635AF55AB72 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8450C4BA1E0A92512632FF0140F106 /* MASConstraint.m */; };
+		946CC90609F62479F990A642485A88AD /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8FF148E97D532780F310476350B9DB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94E9BAF39B70BD6ABC6C92B68E5E1F08 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 89DA4A0818DA1FC94623E0FF4B53B7F0 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A164E70EF379767592AC5E254711C624 /* LWMaskProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = D14B937043BE135D67AAE3738083D3A7 /* LWMaskProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABBA44EAF8C6DF2E8C099801D7C3BC52 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 65C76A23C39DC1E7809C40D7E8BC9AC0 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B276D26FD80A4A9FCB7E320D0063CA41 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = E3AE69DF139F7013AF66D9C8F316A630 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2841A8AB687B316A31BC8AE2039F383 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0464E92851C0592120B9F797036596 /* UIKit.framework */; };
+		B5DB54AF1D5D71F48040F2F34A317183 /* CircleProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4F77FD824925D8DD30B9CDB1CC66EC /* CircleProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB80D717F5D58FEC602D3E45A3C85143 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 92633D3BEFAD4CCB3C7CDE1FAF4B61E2 /* ViewController+MASAdditions.m */; };
+		BC5EF042C07317E1EFC89A344B3B3450 /* CircleProgressBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA833ACC021AFD86EEAAD0A5491F361 /* CircleProgressBar.framework */; };
+		CB097FC588A33053E017EDE92821707D /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A724EAAC4FB7A7E0FAA828FE3547507D /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0E9FDFFD1EF03562B4F14FFBA1CF110 /* Pods-libProgressView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6371B0FB82CFC50BF2218BC8192ADAC9 /* Pods-libProgressView_Example-dummy.m */; };
+		D2C80E7F0909D303909A33DBF8FA9BB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A103DAB716348461B23535D27C99DAB5 /* Foundation.framework */; };
+		D3E8B0E6B0A94339156D7B2EDC4A0752 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 229C15D5908D713ACF27724D59050BE7 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D885C28DFEFE062074645E3E218DF243 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 438BDFB24DB94EFE9C70E4E2AACE85AE /* Masonry-dummy.m */; };
+		E507AB281AA47E14B40779C025E24696 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0464E92851C0592120B9F797036596 /* UIKit.framework */; };
+		E594788D7961C9F43EAD0CB0299BD2ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A103DAB716348461B23535D27C99DAB5 /* Foundation.framework */; };
+		EC72F7247EE78296B38AA394D04778C6 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D75E421810C585C8E38177E6886F9E92 /* NSArray+MASAdditions.m */; };
+		F1B22B453240A7C010AA0C0D259DC7B0 /* CircleProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4DEF91E496BC0A815277ABF7769699 /* CircleProgressBar-dummy.m */; };
+		F438FCFA6BADCD90C33405BA8C0E82C0 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8C3090A0F2032E1BABB6A0D388FBD1 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		99A9D526AEE30E5C4BFB8152FC788F07 /* PBXContainerItemProxy */ = {
+		44AC3B858A10EDCF0E905FA39BB30836 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 683FAAE7B827AADB9887D30A09DA9F30;
+			remoteGlobalIDString = A8A0A63F3FB26ECA3696E72119AB6447;
+			remoteInfo = Masonry;
+		};
+		76C815112C53C08C9C7C66AB26A8047B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8FC0ECF41AE9A8566430E33A0419EBC;
+			remoteInfo = CircleProgressBar;
+		};
+		98A1EBC5A34E0795DC2F694BA7FC5E8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8A0A63F3FB26ECA3696E72119AB6447;
+			remoteInfo = Masonry;
+		};
+		C7C5AF4EE3109BD5972F399BAC9C2E23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8FC0ECF41AE9A8566430E33A0419EBC;
+			remoteInfo = CircleProgressBar;
+		};
+		D7AE1DFBA9AE0230B8367221CF2631F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D655FDBFDDBF28AF84797E24E5D122CC;
 			remoteInfo = libProgressView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00F1D985E527D95B9660BA9022530A8C /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		0119243C7695ED702FAD7A835B838C14 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		0242185AB0CD22AF2AE5B12B442D6454 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		033E7B9D55E06CE15D609EC1FFD75837 /* LWMaskProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LWMaskProgressView.m; path = libProgressView/Classes/LWMaskProgressView.m; sourceTree = "<group>"; };
+		0B87FD370335755E81E459662C5474D8 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		0BC875034A2CD903B8D18174DE56E765 /* libProgressView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libProgressView.xcconfig; sourceTree = "<group>"; };
+		17D4D6CAB726831C34CF045242D312A7 /* CircleProgressBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CircleProgressBar.h; path = CircleProgressBarDemo/CircleProgressBar/CircleProgressBar.h; sourceTree = "<group>"; };
 		1E02ED566BADE150CD383B2201503002 /* libProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libProgressView-dummy.m"; sourceTree = "<group>"; };
 		1F3DE21A45F777944F76EB4E8DE17FB6 /* Pods-libProgressView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libProgressView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		20DBD7F37FE096CE23C7471D3AE38C23 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20E2414E7F9C02B1BD324347464A174D /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		20ED8A73F0E493D2DEA4950E6F140B4A /* libProgressView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libProgressView-umbrella.h"; sourceTree = "<group>"; };
+		229C15D5908D713ACF27724D59050BE7 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		25EFA0558D108EDA68EAA2B5808F1C9F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		28F1C9AA00F1F8271B7C3D5E17318B24 /* Pods-libProgressView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libProgressView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3397879CFA9103D62F2905CDABF2FC5B /* libProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = libProgressView.framework; path = libProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E8C3090A0F2032E1BABB6A0D388FBD1 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		2EE1A44648FDC55ACE03B3CDAF04D799 /* CircleProgressBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleProgressBar.xcconfig; sourceTree = "<group>"; };
+		30DB731760406B4EDDC620345130A53B /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		334C563C980FD88EFE4916E53768DDC1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CB9058D56778AFF38638890D35C0FB6 /* Pods-libProgressView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libProgressView_Example-umbrella.h"; sourceTree = "<group>"; };
+		438BDFB24DB94EFE9C70E4E2AACE85AE /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		447F6C11829B2A80C17C733744C2F436 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		47F020120B815F18E9FDDA72218996BB /* Pods-libProgressView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libProgressView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4E58DE0111AB2C8F01A04C12B54E89D7 /* CircleProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CircleProgressBar.modulemap; sourceTree = "<group>"; };
+		58DF8601FB7D251848ECDDD76988D653 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		59008D33FE051F455A97B1848F7D9DCB /* Pods-libProgressView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libProgressView_Example.modulemap"; sourceTree = "<group>"; };
+		5EA833ACC021AFD86EEAAD0A5491F361 /* CircleProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircleProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE91EF40B6B9401101F519654A7D3D6 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		6371B0FB82CFC50BF2218BC8192ADAC9 /* Pods-libProgressView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libProgressView_Example-dummy.m"; sourceTree = "<group>"; };
+		65C76A23C39DC1E7809C40D7E8BC9AC0 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		6AA8DC3D9AF64E5A19D09112F4BC7CA8 /* CircleProgressBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CircleProgressBar.m; path = CircleProgressBarDemo/CircleProgressBar/CircleProgressBar.m; sourceTree = "<group>"; };
+		6D2D36D71C092BD2B279E9CCF31334BC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		705CC8C2310CBE67373C67F81C15F2E9 /* Pods_libProgressView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_libProgressView_Example.framework; path = "Pods-libProgressView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4DEF91E496BC0A815277ABF7769699 /* CircleProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircleProgressBar-dummy.m"; sourceTree = "<group>"; };
 		8033C6000B1FAA4335A666365AA4E969 /* Pods-libProgressView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libProgressView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89672CEEFEEFFBC85DBA8BD20EF0C771 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		89DA4A0818DA1FC94623E0FF4B53B7F0 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		8A0464E92851C0592120B9F797036596 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8E4F77FD824925D8DD30B9CDB1CC66EC /* CircleProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleProgressBar-umbrella.h"; sourceTree = "<group>"; };
+		92633D3BEFAD4CCB3C7CDE1FAF4B61E2 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		94E10ED71960B1E40CF31D6D1B0B9B9A /* Pods-libProgressView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libProgressView_Example-resources.sh"; sourceTree = "<group>"; };
+		976720F7056C99522547F9BCED3950B8 /* libProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = libProgressView.framework; path = libProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A103DAB716348461B23535D27C99DAB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A5043A306A065CFCF3A9FE786CB5CFDF /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		A724EAAC4FB7A7E0FAA828FE3547507D /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		ADD87BBFF8D6E2534574CBF7982DB899 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
 		B8EDA460053DDD5AE04DA10588418A48 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD8FF148E97D532780F310476350B9DB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		BEE124B5C9DBF446451A243D77168D04 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		C13FFD81E860696402B6D2AD38109600 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		C446AD89364B7C42D6DBDE20C063C0A8 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		C887AAE3AE9A513850C01E20468E9DD7 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		CADA10009A2866E10199658ED16FA856 /* libProgressView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = libProgressView.modulemap; sourceTree = "<group>"; };
-		CADF4F239ADEE02F4BBDCAF339D11E20 /* Pods_libProgressView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_libProgressView_Example.framework; path = "Pods-libProgressView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CC5D2FECB1D54746C1471D58E0387A80 /* libProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libProgressView-prefix.pch"; sourceTree = "<group>"; };
 		CD6E04C79806A4427519BA4EEBE2157B /* libProgressView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = libProgressView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CE79869517771D25FAE6F8E6993DCC50 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		D14B937043BE135D67AAE3738083D3A7 /* LWMaskProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWMaskProgressView.h; path = libProgressView/Classes/LWMaskProgressView.h; sourceTree = "<group>"; };
 		D298071104D6553EB9A67F195728A386 /* Pods-libProgressView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libProgressView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D75E421810C585C8E38177E6886F9E92 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		DA33E47E1074B7428FA8EE08BCD20B59 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		DA38E358BE3EEB2EF5E02F60EA11A3CC /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		DB04B6A2C1F509CE6B42CB2FC3275C38 /* CircleProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CircleProgressBar.framework; path = CircleProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8450C4BA1E0A92512632FF0140F106 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		E31EC8C467FECF9217BC1966888A2F28 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		E3AE69DF139F7013AF66D9C8F316A630 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		E8CD02E9E69DE225BA8F68B4C42386B7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8D75DFF047DA38E9BDD01FCD6725E93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EE1CD387E1910FB73CFD4EFB92A37DB0 /* CircleProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleProgressBar-prefix.pch"; sourceTree = "<group>"; };
+		EF672448452B5FE4915ABA41418C9513 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4BE9455F99DCB268A51F7A76E277D545 /* Frameworks */ = {
+		1F54CF535885F8111ADF59660C7D4F64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06602CAC75B283B09CAF48A150C17F5A /* Foundation.framework in Frameworks */,
+				40951E0AF2910A8DB1894F92C4BBC19C /* Foundation.framework in Frameworks */,
+				B2841A8AB687B316A31BC8AE2039F383 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAAB3008392946F5BC2083C54D440244 /* Frameworks */ = {
+		767DB8A55FC096C7EE27D6AF02B23F06 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A870EAAB87DD97AAABC207BF0511241B /* Foundation.framework in Frameworks */,
+				193532DC582E6326486803870B051D6A /* Foundation.framework in Frameworks */,
+				024DF4C56BED49C0679C6EC2647A99F0 /* QuartzCore.framework in Frameworks */,
+				E507AB281AA47E14B40779C025E24696 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4F335FD0390233147320DFA3773B67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5EF042C07317E1EFC89A344B3B3450 /* CircleProgressBar.framework in Frameworks */,
+				E594788D7961C9F43EAD0CB0299BD2ED /* Foundation.framework in Frameworks */,
+				1DC2C256D2691988B7AA8D188DAB1823 /* Masonry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0AB51E74951B7A86717FDDE269D024B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C80E7F0909D303909A33DBF8FA9BB3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +237,31 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		2149D267D1D3ACAFC4600C67ABFEAE94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB04B6A2C1F509CE6B42CB2FC3275C38 /* CircleProgressBar.framework */,
+				976720F7056C99522547F9BCED3950B8 /* libProgressView.framework */,
+				30DB731760406B4EDDC620345130A53B /* Masonry.framework */,
+				705CC8C2310CBE67373C67F81C15F2E9 /* Pods_libProgressView_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36CD82590BE89C5B4FD77C0E104A6DE8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E58DE0111AB2C8F01A04C12B54E89D7 /* CircleProgressBar.modulemap */,
+				2EE1A44648FDC55ACE03B3CDAF04D799 /* CircleProgressBar.xcconfig */,
+				7A4DEF91E496BC0A815277ABF7769699 /* CircleProgressBar-dummy.m */,
+				EE1CD387E1910FB73CFD4EFB92A37DB0 /* CircleProgressBar-prefix.pch */,
+				8E4F77FD824925D8DD30B9CDB1CC66EC /* CircleProgressBar-umbrella.h */,
+				E8CD02E9E69DE225BA8F68B4C42386B7 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CircleProgressBar";
+			sourceTree = "<group>";
+		};
 		384E05743EDF0DF0CDC0639DB45B5E48 /* libProgressView */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,12 +274,48 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+		3D797F7BCA8B65000F095404BA9139A4 /* CircleProgressBar */ = {
 			isa = PBXGroup;
 			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+				17D4D6CAB726831C34CF045242D312A7 /* CircleProgressBar.h */,
+				6AA8DC3D9AF64E5A19D09112F4BC7CA8 /* CircleProgressBar.m */,
+				36CD82590BE89C5B4FD77C0E104A6DE8 /* Support Files */,
 			);
-			name = iOS;
+			name = CircleProgressBar;
+			path = CircleProgressBar;
+			sourceTree = "<group>";
+		};
+		911097A07E5420665F130F96CD9E1CFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EA833ACC021AFD86EEAAD0A5491F361 /* CircleProgressBar.framework */,
+				EF672448452B5FE4915ABA41418C9513 /* Masonry.framework */,
+				DACD992539A37AF662147966DC729B33 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADFEF4B1CE10B7207979E7F6920C1244 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D797F7BCA8B65000F095404BA9139A4 /* CircleProgressBar */,
+				D617B98944E2C1084187551556B000EC /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B8BA441B7557FD250739619D6B3E5C34 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				334C563C980FD88EFE4916E53768DDC1 /* Info.plist */,
+				ADD87BBFF8D6E2534574CBF7982DB899 /* Masonry.modulemap */,
+				20E2414E7F9C02B1BD324347464A174D /* Masonry.xcconfig */,
+				438BDFB24DB94EFE9C70E4E2AACE85AE /* Masonry-dummy.m */,
+				A5043A306A065CFCF3A9FE786CB5CFDF /* Masonry-prefix.pch */,
+				E31EC8C467FECF9217BC1966888A2F28 /* Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
 		B96CB660BA684DECFDB7285E8954F717 /* Pod */ = {
@@ -133,15 +326,6 @@
 				E8D75DFF047DA38E9BDD01FCD6725E93 /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		BD8000447791E5DD1F3F82A44A160972 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3397879CFA9103D62F2905CDABF2FC5B /* libProgressView.framework */,
-				CADF4F239ADEE02F4BBDCAF339D11E20 /* Pods_libProgressView_Example.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		C3EA55E534E531D93D9612D5DFB40544 /* Pods-libProgressView_Example */ = {
@@ -167,78 +351,187 @@
 			children = (
 				24390EFD555DD124430DFF9724065945 /* Podfile */,
 				1E3F3B77E044E136607228BE8368991B /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				BD8000447791E5DD1F3F82A44A160972 /* Products */,
+				911097A07E5420665F130F96CD9E1CFA /* Frameworks */,
+				ADFEF4B1CE10B7207979E7F6920C1244 /* Pods */,
+				2149D267D1D3ACAFC4600C67ABFEAE94 /* Products */,
 				0048E71C556A5086319E253CDAD26611 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D617B98944E2C1084187551556B000EC /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				BD8FF148E97D532780F310476350B9DB /* MASCompositeConstraint.h */,
+				447F6C11829B2A80C17C733744C2F436 /* MASCompositeConstraint.m */,
+				C446AD89364B7C42D6DBDE20C063C0A8 /* MASConstraint.h */,
+				DE8450C4BA1E0A92512632FF0140F106 /* MASConstraint.m */,
+				229C15D5908D713ACF27724D59050BE7 /* MASConstraint+Private.h */,
+				BEE124B5C9DBF446451A243D77168D04 /* MASConstraintMaker.h */,
+				DA33E47E1074B7428FA8EE08BCD20B59 /* MASConstraintMaker.m */,
+				65C76A23C39DC1E7809C40D7E8BC9AC0 /* MASLayoutConstraint.h */,
+				5FE91EF40B6B9401101F519654A7D3D6 /* MASLayoutConstraint.m */,
+				89672CEEFEEFFBC85DBA8BD20EF0C771 /* Masonry.h */,
+				CE79869517771D25FAE6F8E6993DCC50 /* MASUtilities.h */,
+				C13FFD81E860696402B6D2AD38109600 /* MASViewAttribute.h */,
+				DA38E358BE3EEB2EF5E02F60EA11A3CC /* MASViewAttribute.m */,
+				E3AE69DF139F7013AF66D9C8F316A630 /* MASViewConstraint.h */,
+				58DF8601FB7D251848ECDDD76988D653 /* MASViewConstraint.m */,
+				0119243C7695ED702FAD7A835B838C14 /* NSArray+MASAdditions.h */,
+				D75E421810C585C8E38177E6886F9E92 /* NSArray+MASAdditions.m */,
+				2E8C3090A0F2032E1BABB6A0D388FBD1 /* NSArray+MASShorthandAdditions.h */,
+				89DA4A0818DA1FC94623E0FF4B53B7F0 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				C887AAE3AE9A513850C01E20468E9DD7 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				00F1D985E527D95B9660BA9022530A8C /* View+MASAdditions.h */,
+				25EFA0558D108EDA68EAA2B5808F1C9F /* View+MASAdditions.m */,
+				A724EAAC4FB7A7E0FAA828FE3547507D /* View+MASShorthandAdditions.h */,
+				0B87FD370335755E81E459662C5474D8 /* ViewController+MASAdditions.h */,
+				92633D3BEFAD4CCB3C7CDE1FAF4B61E2 /* ViewController+MASAdditions.m */,
+				B8BA441B7557FD250739619D6B3E5C34 /* Support Files */,
 			);
-			name = Frameworks;
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		DACD992539A37AF662147966DC729B33 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A103DAB716348461B23535D27C99DAB5 /* Foundation.framework */,
+				6D2D36D71C092BD2B279E9CCF31334BC /* QuartzCore.framework */,
+				8A0464E92851C0592120B9F797036596 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C576EA235A2173F53CB9BCE722D111C4 /* Headers */ = {
+		0893A0DCE99BC5AF2714D630A2599A59 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E625FA935C0A690EDDB92E6E0FAF13D2 /* libProgressView-umbrella.h in Headers */,
-				22B61C92D3E53B07275EDB6FCBAEA0C7 /* LWMaskProgressView.h in Headers */,
+				06EC8A4BB761644A8CC03CA1C7113A08 /* Pods-libProgressView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCD0D52497DA748C1279BF744462D409 /* Headers */ = {
+		2947B821D3AB59DDC487CB72FE0A9526 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1CC923DE3F45CAE947B7A344F22EE61 /* Pods-libProgressView_Example-umbrella.h in Headers */,
+				B5DB54AF1D5D71F48040F2F34A317183 /* CircleProgressBar-umbrella.h in Headers */,
+				09734D94FDAF2A758A16E627046EBDA8 /* CircleProgressBar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F26E38D4FA2AAA971F0C536FE0F7D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946CC90609F62479F990A642485A88AD /* MASCompositeConstraint.h in Headers */,
+				D3E8B0E6B0A94339156D7B2EDC4A0752 /* MASConstraint+Private.h in Headers */,
+				70A62E3C8D98B78056D05DD515C5730E /* MASConstraint.h in Headers */,
+				3EF3113F05F4E0A27FD9A05EE23DEEC0 /* MASConstraintMaker.h in Headers */,
+				ABBA44EAF8C6DF2E8C099801D7C3BC52 /* MASLayoutConstraint.h in Headers */,
+				73D9370125EDF3EC61801AD72CFBA784 /* Masonry-umbrella.h in Headers */,
+				5B28B74849CAF875482A77BBB2AABACA /* Masonry.h in Headers */,
+				0CAC931CFB43E4FF791A0EC568BC4880 /* MASUtilities.h in Headers */,
+				78BFE9F3DC5EF7F7E075116D37E11688 /* MASViewAttribute.h in Headers */,
+				B276D26FD80A4A9FCB7E320D0063CA41 /* MASViewConstraint.h in Headers */,
+				60E3E23EEE726F20E01C4392A01270E3 /* NSArray+MASAdditions.h in Headers */,
+				F438FCFA6BADCD90C33405BA8C0E82C0 /* NSArray+MASShorthandAdditions.h in Headers */,
+				94E9BAF39B70BD6ABC6C92B68E5E1F08 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				41EC1EAEF1BF11CE2F50E590F56B76B9 /* View+MASAdditions.h in Headers */,
+				CB097FC588A33053E017EDE92821707D /* View+MASShorthandAdditions.h in Headers */,
+				1E2D35C0B7902B8D0468303D2082EE8D /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1DED12A92F505E364A41C02B297DD25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3865D88C8A3E1F78624A6FDD9E8CEFCD /* libProgressView-umbrella.h in Headers */,
+				A164E70EF379767592AC5E254711C624 /* LWMaskProgressView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		683FAAE7B827AADB9887D30A09DA9F30 /* libProgressView */ = {
+		A8A0A63F3FB26ECA3696E72119AB6447 /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16C55DDCE58890AD6CA987AE04138CA4 /* Build configuration list for PBXNativeTarget "libProgressView" */;
+			buildConfigurationList = 57948587844BAE9ACC1E47B2500E4E3B /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				C576EA235A2173F53CB9BCE722D111C4 /* Headers */,
-				A54A4FAE4B16AD039DF3F6745BDD4668 /* Sources */,
-				4BE9455F99DCB268A51F7A76E277D545 /* Frameworks */,
-				D29B8DCB9D8A68C47C2965BE9AB8F639 /* Resources */,
+				62F26E38D4FA2AAA971F0C536FE0F7D3 /* Headers */,
+				A43966ABED53CE28B70F2097297974CE /* Sources */,
+				1F54CF535885F8111ADF59660C7D4F64 /* Frameworks */,
+				52948CDA8C5687EA723FEB0749485BEB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = libProgressView;
-			productName = libProgressView;
-			productReference = 3397879CFA9103D62F2905CDABF2FC5B /* libProgressView.framework */;
+			name = Masonry;
+			productName = Masonry;
+			productReference = 30DB731760406B4EDDC620345130A53B /* Masonry.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7721462C5F09A00F844C9683A32B178C /* Pods-libProgressView_Example */ = {
+		B1E1E8A7BE5141ED093ACB28EE98A298 /* Pods-libProgressView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB3D90A35B069177DFBADDE74AA7DFE9 /* Build configuration list for PBXNativeTarget "Pods-libProgressView_Example" */;
+			buildConfigurationList = 8F0195FBA6003BB597F779C88F6229A1 /* Build configuration list for PBXNativeTarget "Pods-libProgressView_Example" */;
 			buildPhases = (
-				DCD0D52497DA748C1279BF744462D409 /* Headers */,
-				95F4177B68571E5F6AEFC534C5F143AA /* Sources */,
-				FAAB3008392946F5BC2083C54D440244 /* Frameworks */,
-				7831E42DF5193484F5F98F42A81A304C /* Resources */,
+				0893A0DCE99BC5AF2714D630A2599A59 /* Headers */,
+				1042C00C432007F452571D30214665D8 /* Sources */,
+				A0AB51E74951B7A86717FDDE269D024B /* Frameworks */,
+				1226060F36A452E5CD7DE46D535D0851 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B8D775C1DE71E6EF2A2E7DFE2C18134B /* PBXTargetDependency */,
+				1F23ED7F90CE6D65540BE52E5CFBCE59 /* PBXTargetDependency */,
+				D8934ABEE48D61F738F0631525CEB6FB /* PBXTargetDependency */,
+				09424871AB5E06D1B7B6F8B36F9F86E7 /* PBXTargetDependency */,
 			);
 			name = "Pods-libProgressView_Example";
 			productName = "Pods-libProgressView_Example";
-			productReference = CADF4F239ADEE02F4BBDCAF339D11E20 /* Pods_libProgressView_Example.framework */;
+			productReference = 705CC8C2310CBE67373C67F81C15F2E9 /* Pods_libProgressView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D655FDBFDDBF28AF84797E24E5D122CC /* libProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82679359C7F0488CA772A922ACCF1AC4 /* Build configuration list for PBXNativeTarget "libProgressView" */;
+			buildPhases = (
+				B1DED12A92F505E364A41C02B297DD25 /* Headers */,
+				E17DAF79C09C8920E23CE7D6C7BE088F /* Sources */,
+				8E4F335FD0390233147320DFA3773B67 /* Frameworks */,
+				B8295C0827685E0BF509197D45790074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F33C6CF3075F81C24825FBAB52106AD6 /* PBXTargetDependency */,
+				B4D23342A0A824A8EF58C431913E0D76 /* PBXTargetDependency */,
+			);
+			name = libProgressView;
+			productName = libProgressView;
+			productReference = 976720F7056C99522547F9BCED3950B8 /* libProgressView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8FC0ECF41AE9A8566430E33A0419EBC /* CircleProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A51DB95E8C5D9DC7F063F9B18C939B /* Build configuration list for PBXNativeTarget "CircleProgressBar" */;
+			buildPhases = (
+				2947B821D3AB59DDC487CB72FE0A9526 /* Headers */,
+				C1BE17A3DB3CAFCEFE2CC5EBF60E18C7 /* Sources */,
+				767DB8A55FC096C7EE27D6AF02B23F06 /* Frameworks */,
+				0CE932364965594895AB2981D2A5CDD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleProgressBar;
+			productName = CircleProgressBar;
+			productReference = DB04B6A2C1F509CE6B42CB2FC3275C38 /* CircleProgressBar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -258,25 +551,41 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = BD8000447791E5DD1F3F82A44A160972 /* Products */;
+			productRefGroup = 2149D267D1D3ACAFC4600C67ABFEAE94 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				683FAAE7B827AADB9887D30A09DA9F30 /* libProgressView */,
-				7721462C5F09A00F844C9683A32B178C /* Pods-libProgressView_Example */,
+				E8FC0ECF41AE9A8566430E33A0419EBC /* CircleProgressBar */,
+				D655FDBFDDBF28AF84797E24E5D122CC /* libProgressView */,
+				A8A0A63F3FB26ECA3696E72119AB6447 /* Masonry */,
+				B1E1E8A7BE5141ED093ACB28EE98A298 /* Pods-libProgressView_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7831E42DF5193484F5F98F42A81A304C /* Resources */ = {
+		0CE932364965594895AB2981D2A5CDD3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D29B8DCB9D8A68C47C2965BE9AB8F639 /* Resources */ = {
+		1226060F36A452E5CD7DE46D535D0851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52948CDA8C5687EA723FEB0749485BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8295C0827685E0BF509197D45790074 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -286,35 +595,149 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		95F4177B68571E5F6AEFC534C5F143AA /* Sources */ = {
+		1042C00C432007F452571D30214665D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFA5A9403F716AE6EB08BBF8B27A49E8 /* Pods-libProgressView_Example-dummy.m in Sources */,
+				D0E9FDFFD1EF03562B4F14FFBA1CF110 /* Pods-libProgressView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A54A4FAE4B16AD039DF3F6745BDD4668 /* Sources */ = {
+		A43966ABED53CE28B70F2097297974CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31761654FD191426DAA6A44876A3BD79 /* libProgressView-dummy.m in Sources */,
-				A0DCA13340D103932507B460D8195553 /* LWMaskProgressView.m in Sources */,
+				5427030B10C1259D2011D64AADD8C530 /* MASCompositeConstraint.m in Sources */,
+				9436BAC75FC4C858F7F04635AF55AB72 /* MASConstraint.m in Sources */,
+				58FD19EA7A2BC61363AD6D984C93E966 /* MASConstraintMaker.m in Sources */,
+				2118F4762E53379A7B3CC50A1933F92F /* MASLayoutConstraint.m in Sources */,
+				D885C28DFEFE062074645E3E218DF243 /* Masonry-dummy.m in Sources */,
+				341DE7301012D03EB0F7CDC14015E7A6 /* MASViewAttribute.m in Sources */,
+				67EE427AC990AE198BFBB36C0927E9B9 /* MASViewConstraint.m in Sources */,
+				EC72F7247EE78296B38AA394D04778C6 /* NSArray+MASAdditions.m in Sources */,
+				2F9FED72159A09690D7F5D3A02D755E3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				8EF11621B60A25D921838698B07EE6B4 /* View+MASAdditions.m in Sources */,
+				BB80D717F5D58FEC602D3E45A3C85143 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BE17A3DB3CAFCEFE2CC5EBF60E18C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B22B453240A7C010AA0C0D259DC7B0 /* CircleProgressBar-dummy.m in Sources */,
+				85CF27AB2D06A6F9213FBDC1105F503D /* CircleProgressBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E17DAF79C09C8920E23CE7D6C7BE088F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573211B183B85909EDC59980D89C0A7A /* libProgressView-dummy.m in Sources */,
+				382A6422A56522EFD02BBAE10AEE0256 /* LWMaskProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B8D775C1DE71E6EF2A2E7DFE2C18134B /* PBXTargetDependency */ = {
+		09424871AB5E06D1B7B6F8B36F9F86E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = libProgressView;
-			target = 683FAAE7B827AADB9887D30A09DA9F30 /* libProgressView */;
-			targetProxy = 99A9D526AEE30E5C4BFB8152FC788F07 /* PBXContainerItemProxy */;
+			target = D655FDBFDDBF28AF84797E24E5D122CC /* libProgressView */;
+			targetProxy = D7AE1DFBA9AE0230B8367221CF2631F6 /* PBXContainerItemProxy */;
+		};
+		1F23ED7F90CE6D65540BE52E5CFBCE59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CircleProgressBar;
+			target = E8FC0ECF41AE9A8566430E33A0419EBC /* CircleProgressBar */;
+			targetProxy = C7C5AF4EE3109BD5972F399BAC9C2E23 /* PBXContainerItemProxy */;
+		};
+		B4D23342A0A824A8EF58C431913E0D76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = A8A0A63F3FB26ECA3696E72119AB6447 /* Masonry */;
+			targetProxy = 44AC3B858A10EDCF0E905FA39BB30836 /* PBXContainerItemProxy */;
+		};
+		D8934ABEE48D61F738F0631525CEB6FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = A8A0A63F3FB26ECA3696E72119AB6447 /* Masonry */;
+			targetProxy = 98A1EBC5A34E0795DC2F694BA7FC5E8A /* PBXContainerItemProxy */;
+		};
+		F33C6CF3075F81C24825FBAB52106AD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CircleProgressBar;
+			target = E8FC0ECF41AE9A8566430E33A0419EBC /* CircleProgressBar */;
+			targetProxy = 76C815112C53C08C9C7C66AB26A8047B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1F006C48746FE9BA51C8BDAB3C6C8591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F3DE21A45F777944F76EB4E8DE17FB6 /* Pods-libProgressView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-libProgressView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-libProgressView_Example/Pods-libProgressView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		28BDC14250C6BE657E0BC4934BE820DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EE1A44648FDC55ACE03B3CDAF04D799 /* CircleProgressBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CircleProgressBar/CircleProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircleProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CircleProgressBar/CircleProgressBar.modulemap";
+				PRODUCT_MODULE_NAME = CircleProgressBar;
+				PRODUCT_NAME = CircleProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		5EA5006381E12BC9AA7DEEBC8BCE4905 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -377,9 +800,9 @@
 			};
 			name = Release;
 		};
-		A63B8D383A230F1721A7F844907CA535 /* Debug */ = {
+		63733C8EB65714DFCFFFED2CA4C3E85C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F3DE21A45F777944F76EB4E8DE17FB6 /* Pods-libProgressView_Example.debug.xcconfig */;
+			baseConfigurationReference = D298071104D6553EB9A67F195728A386 /* Pods-libProgressView_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -404,6 +827,68 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		651CDF16CD936AC27AC528B00FCF6E45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20E2414E7F9C02B1BD324347464A174D /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		96FD82573DDC2641127E8983BCABD0BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BC875034A2CD903B8D18174DE56E765 /* libProgressView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/libProgressView/libProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libProgressView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/libProgressView/libProgressView.modulemap";
+				PRODUCT_MODULE_NAME = libProgressView;
+				PRODUCT_NAME = libProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -476,9 +961,9 @@
 			};
 			name = Debug;
 		};
-		D71E9567A9CAD59B1FA282A23AEA57D7 /* Release */ = {
+		D94CAB7F25BD69F416BAA5438567A50F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0BC875034A2CD903B8D18174DE56E765 /* libProgressView.xcconfig */;
+			baseConfigurationReference = 20E2414E7F9C02B1BD324347464A174D /* Masonry.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -489,14 +974,44 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/libProgressView/libProgressView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/libProgressView/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/libProgressView/libProgressView.modulemap";
-				PRODUCT_MODULE_NAME = libProgressView;
-				PRODUCT_NAME = libProgressView;
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F572A99FE5A6F5C2A43B693EB1FF7CEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EE1A44648FDC55ACE03B3CDAF04D799 /* CircleProgressBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CircleProgressBar/CircleProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircleProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CircleProgressBar/CircleProgressBar.modulemap";
+				PRODUCT_MODULE_NAME = CircleProgressBar;
+				PRODUCT_NAME = CircleProgressBar;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -507,7 +1022,7 @@
 			};
 			name = Release;
 		};
-		E4A607C032EA735D4FB962ECC3F71409 /* Debug */ = {
+		FC86DBE040CEF738BB16E859425FD713 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0BC875034A2CD903B8D18174DE56E765 /* libProgressView.xcconfig */;
 			buildSettings = {
@@ -531,39 +1046,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F3DF1C8B9260F09BB01B10011535DC4F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D298071104D6553EB9A67F195728A386 /* Pods-libProgressView_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-libProgressView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-libProgressView_Example/Pods-libProgressView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -574,11 +1056,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		16C55DDCE58890AD6CA987AE04138CA4 /* Build configuration list for PBXNativeTarget "libProgressView" */ = {
+		18A51DB95E8C5D9DC7F063F9B18C939B /* Build configuration list for PBXNativeTarget "CircleProgressBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4A607C032EA735D4FB962ECC3F71409 /* Debug */,
-				D71E9567A9CAD59B1FA282A23AEA57D7 /* Release */,
+				28BDC14250C6BE657E0BC4934BE820DB /* Debug */,
+				F572A99FE5A6F5C2A43B693EB1FF7CEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -592,11 +1074,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB3D90A35B069177DFBADDE74AA7DFE9 /* Build configuration list for PBXNativeTarget "Pods-libProgressView_Example" */ = {
+		57948587844BAE9ACC1E47B2500E4E3B /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A63B8D383A230F1721A7F844907CA535 /* Debug */,
-				F3DF1C8B9260F09BB01B10011535DC4F /* Release */,
+				D94CAB7F25BD69F416BAA5438567A50F /* Debug */,
+				651CDF16CD936AC27AC528B00FCF6E45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82679359C7F0488CA772A922ACCF1AC4 /* Build configuration list for PBXNativeTarget "libProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FD82573DDC2641127E8983BCABD0BA /* Debug */,
+				FC86DBE040CEF738BB16E859425FD713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F0195FBA6003BB597F779C88F6229A1 /* Build configuration list for PBXNativeTarget "Pods-libProgressView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F006C48746FE9BA51C8BDAB3C6C8591 /* Debug */,
+				63733C8EB65714DFCFFFED2CA4C3E85C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

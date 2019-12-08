@@ -17,24 +17,25 @@
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		D87F9401F201E2EACF6B3659 /* Pods_libProgressView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AE8149B2F2DD6BC409205E /* Pods_libProgressView_Example.framework */; };
+		B7DA7415419673BD54405AE0 /* Pods_LWProgressView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B688703C4588CD9570BE25B /* Pods_LWProgressView_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0642DE234C8E34BDEA25E411 /* Pods-libProgressView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libProgressView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-libProgressView_Example/Pods-libProgressView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1B74D04E90E26E8A1A94F4C8 /* Pods-libProgressView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libProgressView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-libProgressView_Tests/Pods-libProgressView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0642DE234C8E34BDEA25E411 /* Pods-LWProgressView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWProgressView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LWProgressView_Example/Pods-LWProgressView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0EC1C4538C4051F7525C40E3 /* Pods-LWProgressView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWProgressView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LWProgressView_Example/Pods-LWProgressView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1B74D04E90E26E8A1A94F4C8 /* Pods-LWProgressView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWProgressView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LWProgressView_Tests/Pods-LWProgressView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1D5B6AFD81BAC1A68EE140EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		29083170CE22E81C71097EE0 /* libProgressView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = libProgressView.podspec; path = ../libProgressView.podspec; sourceTree = "<group>"; };
-		2AC1E84804D5DF01B961B871 /* Pods-libProgressView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libProgressView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-libProgressView_Example/Pods-libProgressView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		378760537D6101583E6A1636 /* Pods-libProgressView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libProgressView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-libProgressView_Tests/Pods-libProgressView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* libProgressView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libProgressView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29083170CE22E81C71097EE0 /* LWProgressView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LWProgressView.podspec; path = ../LWProgressView.podspec; sourceTree = "<group>"; };
+		2AC1E84804D5DF01B961B871 /* Pods-LWProgressView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWProgressView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LWProgressView_Example/Pods-LWProgressView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		378760537D6101583E6A1636 /* Pods-LWProgressView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWProgressView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LWProgressView_Tests/Pods-LWProgressView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* LWProgressView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWProgressView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* libProgressView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "libProgressView-Info.plist"; sourceTree = "<group>"; };
+		6003F595195388D20070C39A /* LWProgressView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LWProgressView-Info.plist"; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* libProgressView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libProgressView-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* LWProgressView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LWProgressView-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* LWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* LWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* LWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWViewController.h; sourceTree = "<group>"; };
@@ -43,9 +44,10 @@
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6B928DF362C16E4C7B1AA6BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B688703C4588CD9570BE25B /* Pods_LWProgressView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LWProgressView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AEB3EB3B8EBB8A22270E05F5 /* Pods_libProgressView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libProgressView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5AE8149B2F2DD6BC409205E /* Pods_libProgressView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libProgressView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB3EB3B8EBB8A22270E05F5 /* Pods_LWProgressView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LWProgressView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFEF0B3AE82B8BEB945BC241 /* Pods-LWProgressView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWProgressView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LWProgressView_Example/Pods-LWProgressView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				D87F9401F201E2EACF6B3659 /* Pods_libProgressView_Example.framework in Frameworks */,
+				B7DA7415419673BD54405AE0 /* Pods_LWProgressView_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,7 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* Example for libProgressView */,
+				6003F593195388D20070C39A /* Example for LWProgressView */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				FA9B5AEBDB610ADE89330BF2 /* Pods */,
@@ -77,7 +79,7 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* libProgressView_Example.app */,
+				6003F58A195388D20070C39A /* LWProgressView_Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,13 +91,13 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				C5AE8149B2F2DD6BC409205E /* Pods_libProgressView_Example.framework */,
-				AEB3EB3B8EBB8A22270E05F5 /* Pods_libProgressView_Tests.framework */,
+				AEB3EB3B8EBB8A22270E05F5 /* Pods_LWProgressView_Tests.framework */,
+				7B688703C4588CD9570BE25B /* Pods_LWProgressView_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6003F593195388D20070C39A /* Example for libProgressView */ = {
+		6003F593195388D20070C39A /* Example for LWProgressView */ = {
 			isa = PBXGroup;
 			children = (
 				6003F59C195388D20070C39A /* LWAppDelegate.h */,
@@ -107,17 +109,17 @@
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
-			name = "Example for libProgressView";
-			path = libProgressView;
+			name = "Example for LWProgressView";
+			path = LWProgressView;
 			sourceTree = "<group>";
 		};
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6003F595195388D20070C39A /* libProgressView-Info.plist */,
+				6003F595195388D20070C39A /* LWProgressView-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* libProgressView-Prefix.pch */,
+				6003F59B195388D20070C39A /* LWProgressView-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -125,7 +127,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				29083170CE22E81C71097EE0 /* libProgressView.podspec */,
+				29083170CE22E81C71097EE0 /* LWProgressView.podspec */,
 				1D5B6AFD81BAC1A68EE140EF /* README.md */,
 				6B928DF362C16E4C7B1AA6BF /* LICENSE */,
 			);
@@ -135,10 +137,12 @@
 		FA9B5AEBDB610ADE89330BF2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0642DE234C8E34BDEA25E411 /* Pods-libProgressView_Example.debug.xcconfig */,
-				2AC1E84804D5DF01B961B871 /* Pods-libProgressView_Example.release.xcconfig */,
-				378760537D6101583E6A1636 /* Pods-libProgressView_Tests.debug.xcconfig */,
-				1B74D04E90E26E8A1A94F4C8 /* Pods-libProgressView_Tests.release.xcconfig */,
+				0642DE234C8E34BDEA25E411 /* Pods-LWProgressView_Example.debug.xcconfig */,
+				2AC1E84804D5DF01B961B871 /* Pods-LWProgressView_Example.release.xcconfig */,
+				378760537D6101583E6A1636 /* Pods-LWProgressView_Tests.debug.xcconfig */,
+				1B74D04E90E26E8A1A94F4C8 /* Pods-LWProgressView_Tests.release.xcconfig */,
+				0EC1C4538C4051F7525C40E3 /* Pods-LWProgressView_Example.debug.xcconfig */,
+				DFEF0B3AE82B8BEB945BC241 /* Pods-LWProgressView_Example.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -146,9 +150,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F589195388D20070C39A /* libProgressView_Example */ = {
+		6003F589195388D20070C39A /* LWProgressView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "libProgressView_Example" */;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "LWProgressView_Example" */;
 			buildPhases = (
 				EBF9DA052AC0BF86342CAD7C /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
@@ -160,9 +164,9 @@
 			);
 			dependencies = (
 			);
-			name = libProgressView_Example;
-			productName = libProgressView;
-			productReference = 6003F58A195388D20070C39A /* libProgressView_Example.app */;
+			name = LWProgressView_Example;
+			productName = LWProgressView;
+			productReference = 6003F58A195388D20070C39A /* LWProgressView_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -180,11 +184,12 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "libProgressView" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "LWProgressView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -193,7 +198,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* libProgressView_Example */,
+				6003F589195388D20070C39A /* LWProgressView_Example */,
 			);
 		};
 /* End PBXProject section */
@@ -218,25 +223,21 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-libProgressView_Example/Pods-libProgressView_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-LWProgressView_Example/Pods-LWProgressView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CircleProgressBar/CircleProgressBar.framework",
+				"${BUILT_PRODUCTS_DIR}/LWProgressView/LWProgressView.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-				"${BUILT_PRODUCTS_DIR}/libProgressView/libProgressView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CircleProgressBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LWProgressView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libProgressView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-libProgressView_Example/Pods-libProgressView_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LWProgressView_Example/Pods-LWProgressView_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EBF9DA052AC0BF86342CAD7C /* [CP] Check Pods Manifest.lock */ = {
@@ -254,7 +255,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-libProgressView_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-LWProgressView_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -371,15 +372,15 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0642DE234C8E34BDEA25E411 /* Pods-libProgressView_Example.debug.xcconfig */;
+			baseConfigurationReference = 0EC1C4538C4051F7525C40E3 /* Pods-LWProgressView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G3A2KYKYBU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "libProgressView/libProgressView-Prefix.pch";
-				INFOPLIST_FILE = "libProgressView/libProgressView-Info.plist";
+				GCC_PREFIX_HEADER = "LWProgressView/LWProgressView-Prefix.pch";
+				INFOPLIST_FILE = "LWProgressView/LWProgressView-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wodedata.libProgressView-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wodedata.LWProgressView-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -387,15 +388,15 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AC1E84804D5DF01B961B871 /* Pods-libProgressView_Example.release.xcconfig */;
+			baseConfigurationReference = DFEF0B3AE82B8BEB945BC241 /* Pods-LWProgressView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G3A2KYKYBU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "libProgressView/libProgressView-Prefix.pch";
-				INFOPLIST_FILE = "libProgressView/libProgressView-Info.plist";
+				GCC_PREFIX_HEADER = "LWProgressView/LWProgressView-Prefix.pch";
+				INFOPLIST_FILE = "LWProgressView/LWProgressView-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wodedata.libProgressView-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wodedata.LWProgressView-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -404,7 +405,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "libProgressView" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "LWProgressView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
@@ -413,7 +414,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "libProgressView_Example" */ = {
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "LWProgressView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,

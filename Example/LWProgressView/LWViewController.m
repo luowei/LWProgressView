@@ -1,12 +1,12 @@
 //
 //  LWViewController.m
-//  libProgressView
+//  LWProgressView
 //
 //  Created by luowei on 04/25/2019.
 //  Copyright (c) 2019 luowei. All rights reserved.
 //
 
-#import <libProgressView/LWMaskProgressView.h>
+#import <LWProgressView/LWMaskProgressView.h>
 #import "LWViewController.h"
 
 @interface LWViewController ()

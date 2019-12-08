@@ -1,9 +1,9 @@
 {
-  "name": "libProgressView",
+  "name": "LWProgressView",
   "version": "1.0",
-  "summary": "A short description of libProgressView.",
+  "summary": "A short description of LWProgressView.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/luowei/libProgressView",
+  "homepage": "https://github.com/luowei/LWProgressView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,13 +12,13 @@
     "luowei": "luowei@wodedata.com"
   },
   "source": {
-    "git": "https://github.com/luowei/libProgressView.git",
+    "git": "https://github.com/luowei/LWProgressView.git",
     "tag": "1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "libProgressView/Classes/**/*",
+  "source_files": "LWProgressView/Classes/**/*",
   "dependencies": {
     "CircleProgressBar": [
 

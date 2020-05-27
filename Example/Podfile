@@ -5,6 +5,9 @@ platform :ios, '8.0'
 target 'LWProgressView_Example' do
   pod 'LWProgressView', :path => '../'
 
+  pod 'CircleProgressBar'
+  pod 'Masonry'
+
   # target 'LWProgressView_Tests' do
   #   inherit! :search_paths
   # end

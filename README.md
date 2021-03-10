@@ -20,6 +20,11 @@ it, simply add the following line to your Podfile:
 pod 'LWProgressView'
 ```
 
+**Carthage**
+```ruby
+github "luowei/LWProgressView"
+```
+
 ## Author
 
 luowei, luowei@wodedata.com

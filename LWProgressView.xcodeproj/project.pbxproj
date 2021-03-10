@@ -9,13 +9,34 @@
 /* Begin PBXBuildFile section */
 		EA7BB83525F926C600557232 /* LWMaskProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BB83225F926C600557232 /* LWMaskProgressView.m */; };
 		EA7BB83625F926C600557232 /* LWMaskProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7BB83325F926C600557232 /* LWMaskProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7BB84925F930A000557232 /* CircleProgressBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7BB84725F9309F00557232 /* CircleProgressBar.framework */; };
+		EA7BB84A25F930A000557232 /* CircleProgressBar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EA7BB84725F9309F00557232 /* CircleProgressBar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EA7BB84B25F930A000557232 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7BB84825F9309F00557232 /* Masonry.framework */; };
+		EA7BB84C25F930A000557232 /* Masonry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EA7BB84825F9309F00557232 /* Masonry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA7BB84D25F930A000557232 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EA7BB84C25F930A000557232 /* Masonry.framework in Embed Frameworks */,
+				EA7BB84A25F930A000557232 /* CircleProgressBar.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		EA7BB82525F9269D00557232 /* LWProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LWProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA7BB82925F9269D00557232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA7BB83225F926C600557232 /* LWMaskProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWMaskProgressView.m; sourceTree = "<group>"; };
 		EA7BB83325F926C600557232 /* LWMaskProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWMaskProgressView.h; sourceTree = "<group>"; };
+		EA7BB84725F9309F00557232 /* CircleProgressBar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CircleProgressBar.framework; path = Carthage/Build/iOS/CircleProgressBar.framework; sourceTree = "<group>"; };
+		EA7BB84825F9309F00557232 /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,6 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA7BB84B25F930A000557232 /* Masonry.framework in Frameworks */,
+				EA7BB84925F930A000557232 /* CircleProgressBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -34,6 +57,7 @@
 			children = (
 				EA7BB82725F9269D00557232 /* LWProgressView */,
 				EA7BB82625F9269D00557232 /* Products */,
+				EA7BB84625F9309F00557232 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +87,15 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		EA7BB84625F9309F00557232 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA7BB84725F9309F00557232 /* CircleProgressBar.framework */,
+				EA7BB84825F9309F00557232 /* Masonry.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -85,6 +118,7 @@
 				EA7BB82125F9269D00557232 /* Sources */,
 				EA7BB82225F9269D00557232 /* Frameworks */,
 				EA7BB82325F9269D00557232 /* Resources */,
+				EA7BB84D25F930A000557232 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -274,6 +308,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Carthage/Build/iOS/Masonry.framework/**",
+					"$(PROJECT_DIR)/Carthage/Build/iOS/CircleProgressBar.framework/**",
+				);
 				INFOPLIST_FILE = LWProgressView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -298,6 +340,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Carthage/Build/iOS/Masonry.framework/**",
+					"$(PROJECT_DIR)/Carthage/Build/iOS/CircleProgressBar.framework/**",
+				);
 				INFOPLIST_FILE = LWProgressView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

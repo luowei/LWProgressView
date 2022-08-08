@@ -9,6 +9,34 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```Objective-C
+- (IBAction)btnAction:(UIButton *)sender {
+
+    self.counter = 0;
+    [NSTimer scheduledTimerWithTimeInterval:0.05
+                                     target:self selector:@selector(scheduleTimer:) userInfo:nil repeats:YES];
+
+}
+
+
+- (void)scheduleTimer:(NSTimer *)timer {
+
+    [LWMaskProgressView showMaskProgressViewin:self.view withText:@"取消" progress:(CGFloat) (self.counter / 100.0) dismissBlock:^{
+    }];
+
+    if (self.counter == 100) {
+        [LWMaskProgressView dismissMaskProgressViewin:self.view];
+        [timer invalidate];
+        return;
+    }
+
+    NSLog(@"===counter:%d", self.counter);
+    self.counter++;
+
+}
+
+```
+
 ## Requirements
 
 ## Installation

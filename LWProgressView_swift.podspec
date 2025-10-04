@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint LWProgressView.podspec' to ensure this is a
+# Be sure to run `pod lib lint LWProgressView_swift.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'LWProgressView'
+  s.name             = 'LWProgressView_swift'
   s.version          = '1.0.0'
-  s.summary          = 'LWProgressView，饼状形进度条组件'
+  s.summary          = 'LWProgressView Swift版本，饼状形进度条组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-LWProgressView，饼状形进度条组件.
+LWProgressView Swift版本，饼状形进度条组件.
                        DESC
 
   s.homepage         = 'https://github.com/luowei/LWProgressView'
@@ -29,20 +29,19 @@ LWProgressView，饼状形进度条组件.
   # s.source           = { :git => 'https://gitlab.com/ioslibraries1/libprogressview.git' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '13.0'
+  s.swift_version = '5.0'
 
-  s.source_files = 'LWProgressView/Classes/**/*.{h,m}'
-  s.exclude_files = 'LWProgressView/Classes/**/*.swift'
+  s.source_files = 'LWProgressView_swift/Classes/**/*'
 
   # s.resource_bundles = {
-  #   'LWProgressView' => ['LWProgressView/Assets/*.png']
+  #   'LWProgressView_swift' => ['LWProgressView_swift/Assets/*.png']
   # }
 
-  s.public_header_files = 'LWProgressView/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  
+
   s.dependency 'CircleProgressBar'
   s.dependency 'Masonry'
-  
+
 end

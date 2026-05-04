@@ -1,5 +1,12 @@
 # LWProgressView
 
+
+## graphify Knowledge Graph
+
+- Interactive graph: https://luowei.github.io/LWProgressView/
+- Report: https://luowei.github.io/LWProgressView/GRAPH_REPORT.md
+- Graph data: https://luowei.github.io/LWProgressView/graph.json
+
 [![CI Status](https://img.shields.io/travis/luowei/LWProgressView.svg?style=flat)](https://travis-ci.org/luowei/LWProgressView)
 [![Version](https://img.shields.io/cocoapods/v/LWProgressView.svg?style=flat)](https://cocoapods.org/pods/LWProgressView)
 [![License](https://img.shields.io/cocoapods/l/LWProgressView.svg?style=flat)](https://cocoapods.org/pods/LWProgressView)

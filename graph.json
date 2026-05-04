@@ -1,0 +1,1833 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Package.swift",
+      "file_type": "code",
+      "source_file": "Package.swift",
+      "source_location": "L1",
+      "id": "package_swift",
+      "community": 8,
+      "norm_label": "package.swift"
+    },
+    {
+      "label": "LWMaskProgressView.m",
+      "file_type": "code",
+      "source_file": "LWProgressView/Classes/LWMaskProgressView.m",
+      "source_location": "L1",
+      "id": "lwprogressview_classes_lwmaskprogressview_m",
+      "community": 0,
+      "norm_label": "lwmaskprogressview.m"
+    },
+    {
+      "label": "LWMaskProgressView",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L62",
+      "id": "classes_lwmaskprogressview_lwmaskprogressview",
+      "community": 0,
+      "norm_label": "lwmaskprogressview"
+    },
+    {
+      "label": "-showMaskProgressViewinwithTextprogressdismissBlock",
+      "file_type": "code",
+      "source_file": "LWProgressView/Classes/LWMaskProgressView.m",
+      "source_location": "L18",
+      "id": "classes_lwmaskprogressview_lwmaskprogressview_showmaskprogressviewinwithtextprogressdismissblock",
+      "community": 0,
+      "norm_label": "-showmaskprogressviewinwithtextprogressdismissblock"
+    },
+    {
+      "label": "-dismissMaskProgressViewin",
+      "file_type": "code",
+      "source_file": "LWProgressView/Classes/LWMaskProgressView.m",
+      "source_location": "L41",
+      "id": "classes_lwmaskprogressview_lwmaskprogressview_dismissmaskprogressviewin",
+      "community": 0,
+      "norm_label": "-dismissmaskprogressviewin"
+    },
+    {
+      "label": "-initWithTextprogress",
+      "file_type": "code",
+      "source_file": "LWProgressView/Classes/LWMaskProgressView.m",
+      "source_location": "L50",
+      "id": "classes_lwmaskprogressview_lwmaskprogressview_initwithtextprogress",
+      "community": 0,
+      "norm_label": "-initwithtextprogress"
+    },
+    {
+      "label": "-textBtn",
+      "file_type": "code",
+      "source_file": "LWProgressView/Classes/LWMaskProgressView.m",
+      "source_location": "L62",
+      "id": "classes_lwmaskprogressview_lwmaskprogressview_textbtn",
+      "community": 0,
+      "norm_label": "-textbtn"
+    },
+    {
+      "label": "-circleProgressBar",
+      "file_type": "code",
+      "source_file": "LWProgressView/Classes/LWMaskProgressView.m",
+      "source_location": "L79",
+      "id": "classes_lwmaskprogressview_lwmaskprogressview_circleprogressbar",
+      "community": 0,
+      "norm_label": "-circleprogressbar"
+    },
+    {
+      "label": "-showWithTextprogress",
+      "file_type": "code",
+      "source_file": "LWProgressView/Classes/LWMaskProgressView.m",
+      "source_location": "L90",
+      "id": "classes_lwmaskprogressview_lwmaskprogressview_showwithtextprogress",
+      "community": 0,
+      "norm_label": "-showwithtextprogress"
+    },
+    {
+      "label": ".layoutSubviews()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L152",
+      "id": "classes_lwmaskprogressview_lwmaskprogressview_layoutsubviews",
+      "community": 0,
+      "norm_label": ".layoutsubviews()"
+    },
+    {
+      "label": "-updateConstraints",
+      "file_type": "code",
+      "source_file": "LWProgressView/Classes/LWMaskProgressView.m",
+      "source_location": "L104",
+      "id": "classes_lwmaskprogressview_lwmaskprogressview_updateconstraints",
+      "community": 0,
+      "norm_label": "-updateconstraints"
+    },
+    {
+      "label": "-touchesBeganwithEvent",
+      "file_type": "code",
+      "source_file": "LWProgressView/Classes/LWMaskProgressView.m",
+      "source_location": "L122",
+      "id": "classes_lwmaskprogressview_lwmaskprogressview_touchesbeganwithevent",
+      "community": 0,
+      "norm_label": "-touchesbeganwithevent"
+    },
+    {
+      "label": ".textBtnAction()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L222",
+      "id": "classes_lwmaskprogressview_lwmaskprogressview_textbtnaction",
+      "community": 0,
+      "norm_label": ".textbtnaction()"
+    },
+    {
+      "label": "LWMaskProgressView.h",
+      "file_type": "code",
+      "source_file": "LWProgressView/Classes/LWMaskProgressView.h",
+      "source_location": "L1",
+      "id": "lwprogressview_classes_lwmaskprogressview_h",
+      "community": 9,
+      "norm_label": "lwmaskprogressview.h"
+    },
+    {
+      "label": "LWViewController.h",
+      "file_type": "code",
+      "source_file": "Example/LWProgressView/LWViewController.h",
+      "source_location": "L1",
+      "id": "example_lwprogressview_lwviewcontroller_h",
+      "community": 10,
+      "norm_label": "lwviewcontroller.h"
+    },
+    {
+      "label": "LWAppDelegate.h",
+      "file_type": "code",
+      "source_file": "Example/LWProgressView/LWAppDelegate.h",
+      "source_location": "L1",
+      "id": "example_lwprogressview_lwappdelegate_h",
+      "community": 11,
+      "norm_label": "lwappdelegate.h"
+    },
+    {
+      "label": "main.m",
+      "file_type": "code",
+      "source_file": "Example/LWProgressView/main.m",
+      "source_location": "L1",
+      "id": "example_lwprogressview_main_m",
+      "community": 12,
+      "norm_label": "main.m"
+    },
+    {
+      "label": "LWAppDelegate.m",
+      "file_type": "code",
+      "source_file": "Example/LWProgressView/LWAppDelegate.m",
+      "source_location": "L1",
+      "id": "example_lwprogressview_lwappdelegate_m",
+      "community": 3,
+      "norm_label": "lwappdelegate.m"
+    },
+    {
+      "label": "LWAppDelegate",
+      "file_type": "code",
+      "source_file": "Example/LWProgressView/LWAppDelegate.m",
+      "source_location": "L11",
+      "id": "lwprogressview_lwappdelegate_lwappdelegate",
+      "community": 3,
+      "norm_label": "lwappdelegate"
+    },
+    {
+      "label": "-applicationdidFinishLaunchingWithOptions",
+      "file_type": "code",
+      "source_file": "Example/LWProgressView/LWAppDelegate.m",
+      "source_location": "L13",
+      "id": "lwprogressview_lwappdelegate_lwappdelegate_applicationdidfinishlaunchingwithoptions",
+      "community": 3,
+      "norm_label": "-applicationdidfinishlaunchingwithoptions"
+    },
+    {
+      "label": "-applicationWillResignActive",
+      "file_type": "code",
+      "source_file": "Example/LWProgressView/LWAppDelegate.m",
+      "source_location": "L19",
+      "id": "lwprogressview_lwappdelegate_lwappdelegate_applicationwillresignactive",
+      "community": 3,
+      "norm_label": "-applicationwillresignactive"
+    },
+    {
+      "label": "-applicationDidEnterBackground",
+      "file_type": "code",
+      "source_file": "Example/LWProgressView/LWAppDelegate.m",
+      "source_location": "L25",
+      "id": "lwprogressview_lwappdelegate_lwappdelegate_applicationdidenterbackground",
+      "community": 3,
+      "norm_label": "-applicationdidenterbackground"
+    },
+    {
+      "label": "-applicationWillEnterForeground",
+      "file_type": "code",
+      "source_file": "Example/LWProgressView/LWAppDelegate.m",
+      "source_location": "L31",
+      "id": "lwprogressview_lwappdelegate_lwappdelegate_applicationwillenterforeground",
+      "community": 3,
+      "norm_label": "-applicationwillenterforeground"
+    },
+    {
+      "label": "-applicationDidBecomeActive",
+      "file_type": "code",
+      "source_file": "Example/LWProgressView/LWAppDelegate.m",
+      "source_location": "L36",
+      "id": "lwprogressview_lwappdelegate_lwappdelegate_applicationdidbecomeactive",
+      "community": 3,
+      "norm_label": "-applicationdidbecomeactive"
+    },
+    {
+      "label": "-applicationWillTerminate",
+      "file_type": "code",
+      "source_file": "Example/LWProgressView/LWAppDelegate.m",
+      "source_location": "L41",
+      "id": "lwprogressview_lwappdelegate_lwappdelegate_applicationwillterminate",
+      "community": 3,
+      "norm_label": "-applicationwillterminate"
+    },
+    {
+      "label": "LWViewController.m",
+      "file_type": "code",
+      "source_file": "Example/LWProgressView/LWViewController.m",
+      "source_location": "L1",
+      "id": "example_lwprogressview_lwviewcontroller_m",
+      "community": 6,
+      "norm_label": "lwviewcontroller.m"
+    },
+    {
+      "label": "LWViewController",
+      "file_type": "code",
+      "source_file": "Example/LWProgressView/LWViewController.m",
+      "source_location": "L12",
+      "id": "lwprogressview_lwviewcontroller_lwviewcontroller",
+      "community": 6,
+      "norm_label": "lwviewcontroller"
+    },
+    {
+      "label": "-viewDidLoad",
+      "file_type": "code",
+      "source_file": "Example/LWProgressView/LWViewController.m",
+      "source_location": "L19",
+      "id": "lwprogressview_lwviewcontroller_lwviewcontroller_viewdidload",
+      "community": 6,
+      "norm_label": "-viewdidload"
+    },
+    {
+      "label": "-btnAction",
+      "file_type": "code",
+      "source_file": "Example/LWProgressView/LWViewController.m",
+      "source_location": "L25",
+      "id": "lwprogressview_lwviewcontroller_lwviewcontroller_btnaction",
+      "community": 6,
+      "norm_label": "-btnaction"
+    },
+    {
+      "label": "-scheduleTimer",
+      "file_type": "code",
+      "source_file": "Example/LWProgressView/LWViewController.m",
+      "source_location": "L34",
+      "id": "lwprogressview_lwviewcontroller_lwviewcontroller_scheduletimer",
+      "community": 6,
+      "norm_label": "-scheduletimer"
+    },
+    {
+      "label": "UsageExamples.swift",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L1",
+      "id": "lwprogressview_swift_classes_usageexamples_swift",
+      "community": 5,
+      "norm_label": "usageexamples.swift"
+    },
+    {
+      "label": "UIKitViewController",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L13",
+      "id": "classes_usageexamples_uikitviewcontroller",
+      "community": 4,
+      "norm_label": "uikitviewcontroller"
+    },
+    {
+      "label": "UIViewController",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "uiviewcontroller",
+      "community": 4,
+      "norm_label": "uiviewcontroller"
+    },
+    {
+      "label": ".example1_showProgressView()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L16",
+      "id": "classes_usageexamples_uikitviewcontroller_example1_showprogressview",
+      "community": 4,
+      "norm_label": ".example1_showprogressview()"
+    },
+    {
+      "label": ".updateProgress()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L45",
+      "id": "classes_usageexamples_uikitviewcontroller_updateprogress",
+      "community": 4,
+      "norm_label": ".updateprogress()"
+    },
+    {
+      "label": ".example2_dismissProgressView()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L55",
+      "id": "classes_usageexamples_uikitviewcontroller_example2_dismissprogressview",
+      "community": 4,
+      "norm_label": ".example2_dismissprogressview()"
+    },
+    {
+      "label": ".example3_createDirectly()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L60",
+      "id": "classes_usageexamples_uikitviewcontroller_example3_createdirectly",
+      "community": 4,
+      "norm_label": ".example3_createdirectly()"
+    },
+    {
+      "label": "SwiftUIExampleView1",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L77",
+      "id": "classes_usageexamples_swiftuiexampleview1",
+      "community": 5,
+      "norm_label": "swiftuiexampleview1"
+    },
+    {
+      "label": "View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "view",
+      "community": 5,
+      "norm_label": "view"
+    },
+    {
+      "label": ".simulateProgress()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L99",
+      "id": "classes_usageexamples_swiftuiexampleview1_simulateprogress",
+      "community": 5,
+      "norm_label": ".simulateprogress()"
+    },
+    {
+      "label": "SwiftUIExampleView2",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L113",
+      "id": "classes_usageexamples_swiftuiexampleview2",
+      "community": 5,
+      "norm_label": "swiftuiexampleview2"
+    },
+    {
+      "label": ".simulateDownload()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L136",
+      "id": "classes_usageexamples_swiftuiexampleview2_simulatedownload",
+      "community": 5,
+      "norm_label": ".simulatedownload()"
+    },
+    {
+      "label": "SwiftUIExampleView3",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L152",
+      "id": "classes_usageexamples_swiftuiexampleview3",
+      "community": 5,
+      "norm_label": "swiftuiexampleview3"
+    },
+    {
+      "label": "CircleProgressBarExample",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L182",
+      "id": "classes_usageexamples_circleprogressbarexample",
+      "community": 5,
+      "norm_label": "circleprogressbarexample"
+    },
+    {
+      "label": "CircleProgressBarUIKitExample",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L207",
+      "id": "classes_usageexamples_circleprogressbaruikitexample",
+      "community": 4,
+      "norm_label": "circleprogressbaruikitexample"
+    },
+    {
+      "label": ".example_circleProgressBar()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L210",
+      "id": "classes_usageexamples_circleprogressbaruikitexample_example_circleprogressbar",
+      "community": 4,
+      "norm_label": ".example_circleprogressbar()"
+    },
+    {
+      "label": "LWProgressViewModifier.swift",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L1",
+      "id": "lwprogressview_swift_classes_lwprogressviewmodifier_swift",
+      "community": 1,
+      "norm_label": "lwprogressviewmodifier.swift"
+    },
+    {
+      "label": "LWProgressViewModifier",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L10",
+      "id": "classes_lwprogressviewmodifier_lwprogressviewmodifier",
+      "community": 1,
+      "norm_label": "lwprogressviewmodifier"
+    },
+    {
+      "label": "ViewModifier",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "viewmodifier",
+      "community": 1,
+      "norm_label": "viewmodifier"
+    },
+    {
+      "label": ".body()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L17",
+      "id": "classes_lwprogressviewmodifier_lwprogressviewmodifier_body",
+      "community": 1,
+      "norm_label": ".body()"
+    },
+    {
+      "label": "View",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L37",
+      "id": "classes_lwprogressviewmodifier_view",
+      "community": 1,
+      "norm_label": "view"
+    },
+    {
+      "label": ".progressOverlay()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L45",
+      "id": "classes_lwprogressviewmodifier_view_progressoverlay",
+      "community": 1,
+      "norm_label": ".progressoverlay()"
+    },
+    {
+      "label": "ProgressStateKey",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L61",
+      "id": "classes_lwprogressviewmodifier_progressstatekey",
+      "community": 1,
+      "norm_label": "progressstatekey"
+    },
+    {
+      "label": "EnvironmentKey",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "environmentkey",
+      "community": 1,
+      "norm_label": "environmentkey"
+    },
+    {
+      "label": "EnvironmentValues",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L66",
+      "id": "classes_lwprogressviewmodifier_environmentvalues",
+      "community": 1,
+      "norm_label": "environmentvalues"
+    },
+    {
+      "label": "ProgressState",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L75",
+      "id": "classes_lwprogressviewmodifier_progressstate",
+      "community": 1,
+      "norm_label": "progressstate"
+    },
+    {
+      "label": "ObservableObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "observableobject",
+      "community": 1,
+      "norm_label": "observableobject"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L81",
+      "id": "classes_lwprogressviewmodifier_progressstate_init",
+      "community": 1,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".show()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L83",
+      "id": "classes_lwprogressviewmodifier_progressstate_show",
+      "community": 1,
+      "norm_label": ".show()"
+    },
+    {
+      "label": ".update()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L89",
+      "id": "classes_lwprogressviewmodifier_progressstate_update",
+      "community": 1,
+      "norm_label": ".update()"
+    },
+    {
+      "label": ".dismiss()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L93",
+      "id": "classes_lwprogressviewmodifier_progressstate_dismiss",
+      "community": 1,
+      "norm_label": ".dismiss()"
+    },
+    {
+      "label": "LWMaskProgressView.swift",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L1",
+      "id": "lwprogressview_swift_classes_lwmaskprogressview_swift",
+      "community": 7,
+      "norm_label": "lwmaskprogressview.swift"
+    },
+    {
+      "label": "LWMaskProgressViewSwiftUI",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L10",
+      "id": "classes_lwmaskprogressview_lwmaskprogressviewswiftui",
+      "community": 7,
+      "norm_label": "lwmaskprogressviewswiftui"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L16",
+      "id": "classes_lwmaskprogressview_lwmaskprogressviewswiftui_init",
+      "community": 7,
+      "norm_label": ".init()"
+    },
+    {
+      "label": "UIView",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "uiview",
+      "community": 2,
+      "norm_label": "uiview"
+    },
+    {
+      "label": ".rgba()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L79",
+      "id": "classes_lwmaskprogressview_lwmaskprogressview_rgba",
+      "community": 0,
+      "norm_label": ".rgba()"
+    },
+    {
+      "label": ".rgbaHexColor()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L83",
+      "id": "classes_lwmaskprogressview_lwmaskprogressview_rgbahexcolor",
+      "community": 0,
+      "norm_label": ".rgbahexcolor()"
+    },
+    {
+      "label": ".rgbHexColor()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L90",
+      "id": "classes_lwmaskprogressview_lwmaskprogressview_rgbhexcolor",
+      "community": 0,
+      "norm_label": ".rgbhexcolor()"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L96",
+      "id": "classes_lwmaskprogressview_lwmaskprogressview_init",
+      "community": 0,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".setupViews()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L111",
+      "id": "classes_lwmaskprogressview_lwmaskprogressview_setupviews",
+      "community": 0,
+      "norm_label": ".setupviews()"
+    },
+    {
+      "label": ".setupConstraints()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L136",
+      "id": "classes_lwmaskprogressview_lwmaskprogressview_setupconstraints",
+      "community": 0,
+      "norm_label": ".setupconstraints()"
+    },
+    {
+      "label": ".showMaskProgressView()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L161",
+      "id": "classes_lwmaskprogressview_lwmaskprogressview_showmaskprogressview",
+      "community": 0,
+      "norm_label": ".showmaskprogressview()"
+    },
+    {
+      "label": ".dismissMaskProgressView()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L202",
+      "id": "classes_lwmaskprogressview_lwmaskprogressview_dismissmaskprogressview",
+      "community": 0,
+      "norm_label": ".dismissmaskprogressview()"
+    },
+    {
+      "label": ".show()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L213",
+      "id": "classes_lwmaskprogressview_lwmaskprogressview_show",
+      "community": 0,
+      "norm_label": ".show()"
+    },
+    {
+      "label": "LWMaskProgressView_Previews",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L230",
+      "id": "classes_lwmaskprogressview_lwmaskprogressview_previews",
+      "community": 7,
+      "norm_label": "lwmaskprogressview_previews"
+    },
+    {
+      "label": "PreviewProvider",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "previewprovider",
+      "community": 7,
+      "norm_label": "previewprovider"
+    },
+    {
+      "label": "CircleProgressBar.swift",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L1",
+      "id": "lwprogressview_swift_classes_circleprogressbar_swift",
+      "community": 2,
+      "norm_label": "circleprogressbar.swift"
+    },
+    {
+      "label": "CircleProgressBar",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L10",
+      "id": "classes_circleprogressbar_circleprogressbar",
+      "community": 2,
+      "norm_label": "circleprogressbar"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L16",
+      "id": "classes_circleprogressbar_circleprogressbar_init",
+      "community": 2,
+      "norm_label": ".init()"
+    },
+    {
+      "label": "CircleProgressBarView",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L45",
+      "id": "classes_circleprogressbar_circleprogressbarview",
+      "community": 2,
+      "norm_label": "circleprogressbarview"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L81",
+      "id": "classes_circleprogressbar_circleprogressbarview_init",
+      "community": 2,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".setupView()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L91",
+      "id": "classes_circleprogressbar_circleprogressbarview_setupview",
+      "community": 2,
+      "norm_label": ".setupview()"
+    },
+    {
+      "label": ".setProgress()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L115",
+      "id": "classes_circleprogressbar_circleprogressbarview_setprogress",
+      "community": 2,
+      "norm_label": ".setprogress()"
+    },
+    {
+      "label": ".updateProgress()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L125",
+      "id": "classes_circleprogressbar_circleprogressbarview_updateprogress",
+      "community": 2,
+      "norm_label": ".updateprogress()"
+    },
+    {
+      "label": ".updateColors()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L129",
+      "id": "classes_circleprogressbar_circleprogressbarview_updatecolors",
+      "community": 2,
+      "norm_label": ".updatecolors()"
+    },
+    {
+      "label": ".updateLineWidth()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L133",
+      "id": "classes_circleprogressbar_circleprogressbarview_updatelinewidth",
+      "community": 2,
+      "norm_label": ".updatelinewidth()"
+    },
+    {
+      "label": ".updateView()",
+      "file_type": "code",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L137",
+      "id": "classes_circleprogressbar_circleprogressbarview_updateview",
+      "community": 2,
+      "norm_label": ".updateview()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView/Classes/LWMaskProgressView.m",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "lwprogressview_classes_lwmaskprogressview_m",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView/Classes/LWMaskProgressView.m",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_showmaskprogressviewinwithtextprogressdismissblock",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView/Classes/LWMaskProgressView.m",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_dismissmaskprogressviewin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView/Classes/LWMaskProgressView.m",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_initwithtextprogress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView/Classes/LWMaskProgressView.m",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_textbtn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView/Classes/LWMaskProgressView.m",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_circleprogressbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView/Classes/LWMaskProgressView.m",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_showwithtextprogress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L152",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_layoutsubviews",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView/Classes/LWMaskProgressView.m",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_updateconstraints",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView/Classes/LWMaskProgressView.m",
+      "source_location": "L122",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_touchesbeganwithevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L222",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_textbtnaction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "lwprogressview_swift_classes_lwmaskprogressview_swift",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview",
+      "target": "uiview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_rgba",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_rgbahexcolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_rgbhexcolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_setupviews",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L136",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_setupconstraints",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L182",
+      "weight": 1.0,
+      "context": "call",
+      "source": "classes_lwmaskprogressview_lwmaskprogressview_showmaskprogressview",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L202",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_dismissmaskprogressview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L213",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_show",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview_setupviews",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_textbtnaction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWProgressView/LWAppDelegate.m",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "example_lwprogressview_lwappdelegate_m",
+      "target": "lwprogressview_lwappdelegate_lwappdelegate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWProgressView/LWAppDelegate.m",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "lwprogressview_lwappdelegate_lwappdelegate",
+      "target": "lwprogressview_lwappdelegate_lwappdelegate_applicationdidfinishlaunchingwithoptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWProgressView/LWAppDelegate.m",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "lwprogressview_lwappdelegate_lwappdelegate",
+      "target": "lwprogressview_lwappdelegate_lwappdelegate_applicationwillresignactive",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWProgressView/LWAppDelegate.m",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "lwprogressview_lwappdelegate_lwappdelegate",
+      "target": "lwprogressview_lwappdelegate_lwappdelegate_applicationdidenterbackground",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWProgressView/LWAppDelegate.m",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "lwprogressview_lwappdelegate_lwappdelegate",
+      "target": "lwprogressview_lwappdelegate_lwappdelegate_applicationwillenterforeground",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWProgressView/LWAppDelegate.m",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "lwprogressview_lwappdelegate_lwappdelegate",
+      "target": "lwprogressview_lwappdelegate_lwappdelegate_applicationdidbecomeactive",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWProgressView/LWAppDelegate.m",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "lwprogressview_lwappdelegate_lwappdelegate",
+      "target": "lwprogressview_lwappdelegate_lwappdelegate_applicationwillterminate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWProgressView/LWViewController.m",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "example_lwprogressview_lwviewcontroller_m",
+      "target": "lwprogressview_lwviewcontroller_lwviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWProgressView/LWViewController.m",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "lwprogressview_lwviewcontroller_lwviewcontroller",
+      "target": "lwprogressview_lwviewcontroller_lwviewcontroller_viewdidload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWProgressView/LWViewController.m",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "lwprogressview_lwviewcontroller_lwviewcontroller",
+      "target": "lwprogressview_lwviewcontroller_lwviewcontroller_btnaction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWProgressView/LWViewController.m",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "lwprogressview_lwviewcontroller_lwviewcontroller",
+      "target": "lwprogressview_lwviewcontroller_lwviewcontroller_scheduletimer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "lwprogressview_swift_classes_usageexamples_swift",
+      "target": "classes_usageexamples_uikitviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "lwprogressview_swift_classes_usageexamples_swift",
+      "target": "classes_usageexamples_swiftuiexampleview1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L113",
+      "weight": 1.0,
+      "source": "lwprogressview_swift_classes_usageexamples_swift",
+      "target": "classes_usageexamples_swiftuiexampleview2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L152",
+      "weight": 1.0,
+      "source": "lwprogressview_swift_classes_usageexamples_swift",
+      "target": "classes_usageexamples_swiftuiexampleview3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "lwprogressview_swift_classes_usageexamples_swift",
+      "target": "classes_usageexamples_circleprogressbarexample",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L207",
+      "weight": 1.0,
+      "source": "lwprogressview_swift_classes_usageexamples_swift",
+      "target": "classes_usageexamples_circleprogressbaruikitexample",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "classes_usageexamples_uikitviewcontroller",
+      "target": "uiviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "classes_usageexamples_uikitviewcontroller",
+      "target": "classes_usageexamples_uikitviewcontroller_example1_showprogressview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "classes_usageexamples_uikitviewcontroller",
+      "target": "classes_usageexamples_uikitviewcontroller_updateprogress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "classes_usageexamples_uikitviewcontroller",
+      "target": "classes_usageexamples_uikitviewcontroller_example2_dismissprogressview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "classes_usageexamples_uikitviewcontroller",
+      "target": "classes_usageexamples_uikitviewcontroller_example3_createdirectly",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L207",
+      "weight": 1.0,
+      "source": "classes_usageexamples_circleprogressbaruikitexample",
+      "target": "uiviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "classes_usageexamples_uikitviewcontroller_example1_showprogressview",
+      "target": "classes_usageexamples_uikitviewcontroller_updateprogress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "classes_usageexamples_swiftuiexampleview1",
+      "target": "view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "classes_usageexamples_swiftuiexampleview1",
+      "target": "classes_usageexamples_swiftuiexampleview1_simulateprogress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L113",
+      "weight": 1.0,
+      "source": "classes_usageexamples_swiftuiexampleview2",
+      "target": "view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L152",
+      "weight": 1.0,
+      "source": "classes_usageexamples_swiftuiexampleview3",
+      "target": "view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "classes_usageexamples_circleprogressbarexample",
+      "target": "view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressviewswiftui",
+      "target": "view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "classes_circleprogressbar_circleprogressbar",
+      "target": "view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L136",
+      "weight": 1.0,
+      "source": "classes_usageexamples_swiftuiexampleview2",
+      "target": "classes_usageexamples_swiftuiexampleview2_simulatedownload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L210",
+      "weight": 1.0,
+      "source": "classes_usageexamples_circleprogressbaruikitexample",
+      "target": "classes_usageexamples_circleprogressbaruikitexample_example_circleprogressbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWProgressView_swift/Classes/UsageExamples.swift",
+      "source_location": "L211",
+      "weight": 1.0,
+      "source": "classes_usageexamples_circleprogressbaruikitexample_example_circleprogressbar",
+      "target": "classes_circleprogressbar_circleprogressbarview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "lwprogressview_swift_classes_lwprogressviewmodifier_swift",
+      "target": "classes_lwprogressviewmodifier_lwprogressviewmodifier",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "lwprogressview_swift_classes_lwprogressviewmodifier_swift",
+      "target": "classes_lwprogressviewmodifier_view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "lwprogressview_swift_classes_lwprogressviewmodifier_swift",
+      "target": "classes_lwprogressviewmodifier_progressstatekey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "lwprogressview_swift_classes_lwprogressviewmodifier_swift",
+      "target": "classes_lwprogressviewmodifier_environmentvalues",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "lwprogressview_swift_classes_lwprogressviewmodifier_swift",
+      "target": "classes_lwprogressviewmodifier_progressstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "classes_lwprogressviewmodifier_lwprogressviewmodifier",
+      "target": "viewmodifier",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "classes_lwprogressviewmodifier_lwprogressviewmodifier",
+      "target": "classes_lwprogressviewmodifier_lwprogressviewmodifier_body",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "classes_lwprogressviewmodifier_view_progressoverlay",
+      "target": "classes_lwprogressviewmodifier_lwprogressviewmodifier",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "classes_lwprogressviewmodifier_lwprogressviewmodifier_body",
+      "target": "classes_lwmaskprogressview_lwmaskprogressviewswiftui"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "classes_lwprogressviewmodifier_view",
+      "target": "classes_lwprogressviewmodifier_view_progressoverlay",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "classes_lwprogressviewmodifier_progressstatekey",
+      "target": "environmentkey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "classes_lwprogressviewmodifier_progressstate",
+      "target": "observableobject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "classes_lwprogressviewmodifier_progressstate",
+      "target": "classes_lwprogressviewmodifier_progressstate_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "classes_lwprogressviewmodifier_progressstate",
+      "target": "classes_lwprogressviewmodifier_progressstate_show",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "classes_lwprogressviewmodifier_progressstate",
+      "target": "classes_lwprogressviewmodifier_progressstate_update",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWProgressViewModifier.swift",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "classes_lwprogressviewmodifier_progressstate",
+      "target": "classes_lwprogressviewmodifier_progressstate_dismiss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "lwprogressview_swift_classes_lwmaskprogressview_swift",
+      "target": "classes_lwmaskprogressview_lwmaskprogressviewswiftui",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L230",
+      "weight": 1.0,
+      "source": "lwprogressview_swift_classes_lwmaskprogressview_swift",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_previews",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressviewswiftui",
+      "target": "classes_lwmaskprogressview_lwmaskprogressviewswiftui_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "classes_circleprogressbar_circleprogressbarview",
+      "target": "uiview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview_rgbhexcolor",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_rgbahexcolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview_init",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_rgbahexcolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview_setupviews",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_rgbhexcolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview_init",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_setupviews",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L101",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview_init",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_show",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview_setupviews",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_setupconstraints",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L113",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview_setupviews",
+      "target": "classes_circleprogressbar_circleprogressbarview"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L196",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview_showmaskprogressview",
+      "target": "classes_lwmaskprogressview_lwmaskprogressview_show",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/LWMaskProgressView.swift",
+      "source_location": "L230",
+      "weight": 1.0,
+      "source": "classes_lwmaskprogressview_lwmaskprogressview_previews",
+      "target": "previewprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "lwprogressview_swift_classes_circleprogressbar_swift",
+      "target": "classes_circleprogressbar_circleprogressbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "lwprogressview_swift_classes_circleprogressbar_swift",
+      "target": "classes_circleprogressbar_circleprogressbarview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "classes_circleprogressbar_circleprogressbar",
+      "target": "classes_circleprogressbar_circleprogressbar_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "classes_circleprogressbar_circleprogressbarview_setupview",
+      "target": "classes_circleprogressbar_circleprogressbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L138",
+      "weight": 1.0,
+      "source": "classes_circleprogressbar_circleprogressbarview_updateview",
+      "target": "classes_circleprogressbar_circleprogressbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "classes_circleprogressbar_circleprogressbarview",
+      "target": "classes_circleprogressbar_circleprogressbarview_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "classes_circleprogressbar_circleprogressbarview",
+      "target": "classes_circleprogressbar_circleprogressbarview_setupview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "classes_circleprogressbar_circleprogressbarview",
+      "target": "classes_circleprogressbar_circleprogressbarview_setprogress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L125",
+      "weight": 1.0,
+      "source": "classes_circleprogressbar_circleprogressbarview",
+      "target": "classes_circleprogressbar_circleprogressbarview_updateprogress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "classes_circleprogressbar_circleprogressbarview",
+      "target": "classes_circleprogressbar_circleprogressbarview_updatecolors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "classes_circleprogressbar_circleprogressbarview",
+      "target": "classes_circleprogressbar_circleprogressbarview_updatelinewidth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L137",
+      "weight": 1.0,
+      "source": "classes_circleprogressbar_circleprogressbarview",
+      "target": "classes_circleprogressbar_circleprogressbarview_updateview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "classes_circleprogressbar_circleprogressbarview_init",
+      "target": "classes_circleprogressbar_circleprogressbarview_setupview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "classes_circleprogressbar_circleprogressbarview_updateprogress",
+      "target": "classes_circleprogressbar_circleprogressbarview_updateview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L130",
+      "weight": 1.0,
+      "source": "classes_circleprogressbar_circleprogressbarview_updatecolors",
+      "target": "classes_circleprogressbar_circleprogressbarview_updateview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWProgressView_swift/Classes/CircleProgressBar.swift",
+      "source_location": "L134",
+      "weight": 1.0,
+      "source": "classes_circleprogressbar_circleprogressbarview_updatelinewidth",
+      "target": "classes_circleprogressbar_circleprogressbarview_updateview",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
